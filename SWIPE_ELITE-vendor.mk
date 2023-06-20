@@ -39,14 +39,6 @@ PRODUCT_COPY_FILES += \
     vendor/swipe/SWIPE_ELITE/proprietary/etc/firmware/a530v2_seq.fw2:system/etc/firmware/a530v2_seq.fw2 \
     vendor/swipe/SWIPE_ELITE/proprietary/etc/firmware/a530v3_gpmu.fw2:system/etc/firmware/a530v3_gpmu.fw2 \
     vendor/swipe/SWIPE_ELITE/proprietary/etc/firmware/a530v3_seq.fw2:system/etc/firmware/a530v3_seq.fw2 \
-    vendor/swipe/SWIPE_ELITE/proprietary/etc/firmware/cardapp.b00:system/etc/firmware/cardapp.b00 \
-    vendor/swipe/SWIPE_ELITE/proprietary/etc/firmware/cardapp.b01:system/etc/firmware/cardapp.b01 \
-    vendor/swipe/SWIPE_ELITE/proprietary/etc/firmware/cardapp.b02:system/etc/firmware/cardapp.b02 \
-    vendor/swipe/SWIPE_ELITE/proprietary/etc/firmware/cardapp.b03:system/etc/firmware/cardapp.b03 \
-    vendor/swipe/SWIPE_ELITE/proprietary/etc/firmware/cardapp.b04:system/etc/firmware/cardapp.b04 \
-    vendor/swipe/SWIPE_ELITE/proprietary/etc/firmware/cardapp.b05:system/etc/firmware/cardapp.b05 \
-    vendor/swipe/SWIPE_ELITE/proprietary/etc/firmware/cardapp.b06:system/etc/firmware/cardapp.b06 \
-    vendor/swipe/SWIPE_ELITE/proprietary/etc/firmware/cardapp.mdt:system/etc/firmware/cardapp.mdt \
     vendor/swipe/SWIPE_ELITE/proprietary/etc/firmware/hbtp/hbtpcfg.dat:system/etc/firmware/hbtp/hbtpcfg.dat \
     vendor/swipe/SWIPE_ELITE/proprietary/etc/firmware/hbtp/hbtpcfg_8917.dat:system/etc/firmware/hbtp/hbtpcfg_8917.dat \
     vendor/swipe/SWIPE_ELITE/proprietary/etc/firmware/hbtp/qtc800s_dsp.bin:system/etc/firmware/hbtp/qtc800s_dsp.bin \
@@ -70,7 +62,6 @@ PRODUCT_COPY_FILES += \
     vendor/swipe/SWIPE_ELITE/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/swipe/SWIPE_ELITE/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
     vendor/swipe/SWIPE_ELITE/proprietary/lib/libantradio.so:system/lib/libantradio.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/lib/libchromaflash.so:system/lib/libchromaflash.so \
     vendor/swipe/SWIPE_ELITE/proprietary/lib/libqti_performance.so:system/lib/libqti_performance.so \
     vendor/swipe/SWIPE_ELITE/proprietary/lib64/libantradio.so:system/lib64/libantradio.so \
     vendor/swipe/SWIPE_ELITE/proprietary/lib64/libqti_performance.so:system/lib64/libqti_performance.so \
@@ -93,11 +84,9 @@ PRODUCT_COPY_FILES += \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/bin/qseeproxydaemon:system/vendor/bin/qseeproxydaemon \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/bin/qseeproxysampledaemon:system/vendor/bin/qseeproxysampledaemon \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/bin/qti:system/vendor/bin/qti \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/bin/sensorcali:system/vendor/bin/sensorcali \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/bin/touch_fusion:system/vendor/bin/touch_fusion \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/etc/diracmobile.config:system/vendor/etc/diracmobile.config \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
@@ -123,8 +112,6 @@ PRODUCT_COPY_FILES += \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libChamomilePA.so:system/vendor/lib/libChamomilePA.so \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libEGL_adreno.so:system/vendor/lib/libEGL_adreno.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libFaceGrade.so:system/vendor/lib/libFaceGrade.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libFaceProc.so:system/vendor/lib/libFaceProc.so \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libFileMux.so:system/vendor/lib/libFileMux.so \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libFlacSwDec.so:system/vendor/lib/libFlacSwDec.so \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
@@ -154,7 +141,6 @@ PRODUCT_COPY_FILES += \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libactuator_ak7345.so:system/vendor/lib/libactuator_ak7345.so \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libactuator_ak7371.so:system/vendor/lib/libactuator_ak7371.so \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libactuator_bu64244gwz.so:system/vendor/lib/libactuator_bu64244gwz.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libactuator_bu64291gwz.so:system/vendor/lib/libactuator_bu64291gwz.so \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libactuator_bu64297.so:system/vendor/lib/libactuator_bu64297.so \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libactuator_dw9714.so:system/vendor/lib/libactuator_dw9714.so \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libactuator_dw9716.so:system/vendor/lib/libactuator_dw9716.so \
@@ -171,14 +157,10 @@ PRODUCT_COPY_FILES += \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libadsp_default_listener.so:system/vendor/lib/libadsp_default_listener.so \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libalarmservice_jni.so:system/vendor/lib/libalarmservice_jni.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libarcsoft_beauty_shot.so:system/vendor/lib/libarcsoft_beauty_shot.so \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libaudioalsa.so:system/vendor/lib/libaudioalsa.so \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libaudiodevarb.so:system/vendor/lib/libaudiodevarb.so \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libaudioparsers.so:system/vendor/lib/libaudioparsers.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libavcodec.so:system/vendor/lib/libavcodec.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libavformat.so:system/vendor/lib/libavformat.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libavutil.so:system/vendor/lib/libavutil.so \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
@@ -489,7 +471,6 @@ PRODUCT_COPY_FILES += \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_ov13850_q13v06k_hfr_60_bu64297.so:system/vendor/lib/libchromatix_ov13850_q13v06k_hfr_60_bu64297.so \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_ov13850_q13v06k_hfr_90.so:system/vendor/lib/libchromatix_ov13850_q13v06k_hfr_90.so \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_ov13850_q13v06k_hfr_90_bu64297.so:system/vendor/lib/libchromatix_ov13850_q13v06k_hfr_90_bu64297.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_ov13850_q13v06k_liveshot.so:system/vendor/lib/libchromatix_ov13850_q13v06k_liveshot.so \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_ov13850_q13v06k_postproc.so:system/vendor/lib/libchromatix_ov13850_q13v06k_postproc.so \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_ov13850_q13v06k_preview.so:system/vendor/lib/libchromatix_ov13850_q13v06k_preview.so \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_ov13850_q13v06k_snapshot.so:system/vendor/lib/libchromatix_ov13850_q13v06k_snapshot.so \
@@ -589,29 +570,6 @@ PRODUCT_COPY_FILES += \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_ov5670_video_full.so:system/vendor/lib/libchromatix_ov5670_video_full.so \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_ov5670_zsl_preview.so:system/vendor/lib/libchromatix_ov5670_zsl_preview.so \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_ov5670_zsl_video.so:system/vendor/lib/libchromatix_ov5670_zsl_video.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_ov5675_d5v15b_common.so:system/vendor/lib/libchromatix_ov5675_d5v15b_common.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_ov5675_d5v15b_cpp_hfr_120.so:system/vendor/lib/libchromatix_ov5675_d5v15b_cpp_hfr_120.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_ov5675_d5v15b_cpp_hfr_60.so:system/vendor/lib/libchromatix_ov5675_d5v15b_cpp_hfr_60.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_ov5675_d5v15b_cpp_hfr_90.so:system/vendor/lib/libchromatix_ov5675_d5v15b_cpp_hfr_90.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_ov5675_d5v15b_cpp_liveshot.so:system/vendor/lib/libchromatix_ov5675_d5v15b_cpp_liveshot.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_ov5675_d5v15b_cpp_preview.so:system/vendor/lib/libchromatix_ov5675_d5v15b_cpp_preview.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_ov5675_d5v15b_cpp_snapshot.so:system/vendor/lib/libchromatix_ov5675_d5v15b_cpp_snapshot.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_ov5675_d5v15b_cpp_video.so:system/vendor/lib/libchromatix_ov5675_d5v15b_cpp_video.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_ov5675_d5v15b_default_preview_3a.so:system/vendor/lib/libchromatix_ov5675_d5v15b_default_preview_3a.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_ov5675_d5v15b_default_video.so:system/vendor/lib/libchromatix_ov5675_d5v15b_default_video.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_ov5675_d5v15b_default_video_3a.so:system/vendor/lib/libchromatix_ov5675_d5v15b_default_video_3a.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_ov5675_d5v15b_hfr_120.so:system/vendor/lib/libchromatix_ov5675_d5v15b_hfr_120.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_ov5675_d5v15b_hfr_120_3a.so:system/vendor/lib/libchromatix_ov5675_d5v15b_hfr_120_3a.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_ov5675_d5v15b_hfr_60.so:system/vendor/lib/libchromatix_ov5675_d5v15b_hfr_60.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_ov5675_d5v15b_hfr_60_3a.so:system/vendor/lib/libchromatix_ov5675_d5v15b_hfr_60_3a.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_ov5675_d5v15b_hfr_90.so:system/vendor/lib/libchromatix_ov5675_d5v15b_hfr_90.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_ov5675_d5v15b_hfr_90_3a.so:system/vendor/lib/libchromatix_ov5675_d5v15b_hfr_90_3a.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_ov5675_d5v15b_liveshot.so:system/vendor/lib/libchromatix_ov5675_d5v15b_liveshot.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_ov5675_d5v15b_postproc.so:system/vendor/lib/libchromatix_ov5675_d5v15b_postproc.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_ov5675_d5v15b_preview.so:system/vendor/lib/libchromatix_ov5675_d5v15b_preview.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_ov5675_d5v15b_snapshot.so:system/vendor/lib/libchromatix_ov5675_d5v15b_snapshot.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_ov5675_d5v15b_zsl_preview_3a.so:system/vendor/lib/libchromatix_ov5675_d5v15b_zsl_preview_3a.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_ov5675_d5v15b_zsl_video_3a.so:system/vendor/lib/libchromatix_ov5675_d5v15b_zsl_video_3a.so \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_ov5695_a3_default_preview.so:system/vendor/lib/libchromatix_ov5695_a3_default_preview.so \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_ov5695_a3_default_video.so:system/vendor/lib/libchromatix_ov5695_a3_default_video.so \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_ov5695_a3_hfr_120.so:system/vendor/lib/libchromatix_ov5695_a3_hfr_120.so \
@@ -689,51 +647,6 @@ PRODUCT_COPY_FILES += \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_ov8865_video_full.so:system/vendor/lib/libchromatix_ov8865_video_full.so \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_ov8865_zsl_preview.so:system/vendor/lib/libchromatix_ov8865_zsl_preview.so \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_ov8865_zsl_video.so:system/vendor/lib/libchromatix_ov8865_zsl_video.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_common.so:system/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_common.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_cpp_hfr_120.so:system/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_cpp_hfr_120.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_cpp_hfr_60.so:system/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_cpp_hfr_60.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_cpp_hfr_90.so:system/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_cpp_hfr_90.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_cpp_liveshot.so:system/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_cpp_liveshot.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_cpp_preview.so:system/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_cpp_preview.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_cpp_snapshot.so:system/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_cpp_snapshot.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_cpp_video.so:system/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_cpp_video.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_default_preview_dw9763.so:system/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_default_preview_dw9763.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_default_video.so:system/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_default_video.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_default_video_dw9763.so:system/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_default_video_dw9763.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_hfr_120.so:system/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_hfr_120.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_hfr_120_dw9763.so:system/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_hfr_120_dw9763.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_hfr_60.so:system/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_hfr_60.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_hfr_60_dw9763.so:system/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_hfr_60_dw9763.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_hfr_90.so:system/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_hfr_90.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_hfr_90_dw9763.so:system/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_hfr_90_dw9763.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_liveshot.so:system/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_liveshot.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_postproc.so:system/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_postproc.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_preview.so:system/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_preview.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_snapshot.so:system/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_snapshot.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_zsl_preview_dw9763.so:system/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_zsl_preview_dw9763.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_zsl_video_dw9763.so:system/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_zsl_video_dw9763.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k3l2_common.so:system/vendor/lib/libchromatix_s5k3l2_common.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k3l2_cpp_hfr_120.so:system/vendor/lib/libchromatix_s5k3l2_cpp_hfr_120.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k3l2_cpp_hfr_60.so:system/vendor/lib/libchromatix_s5k3l2_cpp_hfr_60.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k3l2_cpp_hfr_90.so:system/vendor/lib/libchromatix_s5k3l2_cpp_hfr_90.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k3l2_cpp_liveshot.so:system/vendor/lib/libchromatix_s5k3l2_cpp_liveshot.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k3l2_cpp_preview.so:system/vendor/lib/libchromatix_s5k3l2_cpp_preview.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k3l2_cpp_snapshot.so:system/vendor/lib/libchromatix_s5k3l2_cpp_snapshot.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k3l2_cpp_video.so:system/vendor/lib/libchromatix_s5k3l2_cpp_video.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k3l2_default_preview_ak7345.so:system/vendor/lib/libchromatix_s5k3l2_default_preview_ak7345.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k3l2_default_video.so:system/vendor/lib/libchromatix_s5k3l2_default_video.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k3l2_default_video_ak7345.so:system/vendor/lib/libchromatix_s5k3l2_default_video_ak7345.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k3l2_hfr_120.so:system/vendor/lib/libchromatix_s5k3l2_hfr_120.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k3l2_hfr_120_ak7345.so:system/vendor/lib/libchromatix_s5k3l2_hfr_120_ak7345.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k3l2_hfr_60.so:system/vendor/lib/libchromatix_s5k3l2_hfr_60.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k3l2_hfr_60_ak7345.so:system/vendor/lib/libchromatix_s5k3l2_hfr_60_ak7345.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k3l2_hfr_90.so:system/vendor/lib/libchromatix_s5k3l2_hfr_90.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k3l2_hfr_90_ak7345.so:system/vendor/lib/libchromatix_s5k3l2_hfr_90_ak7345.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k3l2_postproc.so:system/vendor/lib/libchromatix_s5k3l2_postproc.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k3l2_preview.so:system/vendor/lib/libchromatix_s5k3l2_preview.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k3l2_snapshot.so:system/vendor/lib/libchromatix_s5k3l2_snapshot.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k3l2_zsl_preview_ak7345.so:system/vendor/lib/libchromatix_s5k3l2_zsl_preview_ak7345.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k3l2_zsl_video_ak7345.so:system/vendor/lib/libchromatix_s5k3l2_zsl_video_ak7345.so \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k3l8_common.so:system/vendor/lib/libchromatix_s5k3l8_common.so \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k3l8_cpp_hfr_120.so:system/vendor/lib/libchromatix_s5k3l8_cpp_hfr_120.so \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k3l8_cpp_hfr_60.so:system/vendor/lib/libchromatix_s5k3l8_cpp_hfr_60.so \
@@ -873,102 +786,6 @@ PRODUCT_COPY_FILES += \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k3m2xx_video_4k.so:system/vendor/lib/libchromatix_s5k3m2xx_video_4k.so \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k3m2xx_zsl_preview_ad5816g.so:system/vendor/lib/libchromatix_s5k3m2xx_zsl_preview_ad5816g.so \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k3m2xx_zsl_video_ad5816g.so:system/vendor/lib/libchromatix_s5k3m2xx_zsl_video_ad5816g.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k4h8_common.so:system/vendor/lib/libchromatix_s5k4h8_common.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k4h8_cpp_hfr_120.so:system/vendor/lib/libchromatix_s5k4h8_cpp_hfr_120.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k4h8_cpp_hfr_60.so:system/vendor/lib/libchromatix_s5k4h8_cpp_hfr_60.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k4h8_cpp_hfr_90.so:system/vendor/lib/libchromatix_s5k4h8_cpp_hfr_90.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k4h8_cpp_liveshot.so:system/vendor/lib/libchromatix_s5k4h8_cpp_liveshot.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k4h8_cpp_preview.so:system/vendor/lib/libchromatix_s5k4h8_cpp_preview.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k4h8_cpp_snapshot.so:system/vendor/lib/libchromatix_s5k4h8_cpp_snapshot.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k4h8_cpp_video.so:system/vendor/lib/libchromatix_s5k4h8_cpp_video.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k4h8_default_preview_dw9763.so:system/vendor/lib/libchromatix_s5k4h8_default_preview_dw9763.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k4h8_default_video.so:system/vendor/lib/libchromatix_s5k4h8_default_video.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k4h8_default_video_dw9763.so:system/vendor/lib/libchromatix_s5k4h8_default_video_dw9763.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k4h8_hfr_120.so:system/vendor/lib/libchromatix_s5k4h8_hfr_120.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k4h8_hfr_120_dw9763.so:system/vendor/lib/libchromatix_s5k4h8_hfr_120_dw9763.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k4h8_hfr_60.so:system/vendor/lib/libchromatix_s5k4h8_hfr_60.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k4h8_hfr_60_dw9763.so:system/vendor/lib/libchromatix_s5k4h8_hfr_60_dw9763.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k4h8_hfr_90.so:system/vendor/lib/libchromatix_s5k4h8_hfr_90.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k4h8_hfr_90_dw9763.so:system/vendor/lib/libchromatix_s5k4h8_hfr_90_dw9763.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k4h8_liveshot.so:system/vendor/lib/libchromatix_s5k4h8_liveshot.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k4h8_postproc.so:system/vendor/lib/libchromatix_s5k4h8_postproc.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k4h8_preview.so:system/vendor/lib/libchromatix_s5k4h8_preview.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k4h8_snapshot.so:system/vendor/lib/libchromatix_s5k4h8_snapshot.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k4h8_zsl_preview_dw9763.so:system/vendor/lib/libchromatix_s5k4h8_zsl_preview_dw9763.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k4h8_zsl_video_dw9763.so:system/vendor/lib/libchromatix_s5k4h8_zsl_video_dw9763.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k5e8_a3_default_preview.so:system/vendor/lib/libchromatix_s5k5e8_a3_default_preview.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k5e8_a3_default_video.so:system/vendor/lib/libchromatix_s5k5e8_a3_default_video.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k5e8_a3_hfr_120.so:system/vendor/lib/libchromatix_s5k5e8_a3_hfr_120.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k5e8_a3_hfr_60.so:system/vendor/lib/libchromatix_s5k5e8_a3_hfr_60.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k5e8_a3_hfr_90.so:system/vendor/lib/libchromatix_s5k5e8_a3_hfr_90.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k5e8_common.so:system/vendor/lib/libchromatix_s5k5e8_common.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k5e8_cpp_ds_chromatix.so:system/vendor/lib/libchromatix_s5k5e8_cpp_ds_chromatix.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k5e8_cpp_hfr_120.so:system/vendor/lib/libchromatix_s5k5e8_cpp_hfr_120.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k5e8_cpp_hfr_60.so:system/vendor/lib/libchromatix_s5k5e8_cpp_hfr_60.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k5e8_cpp_hfr_90.so:system/vendor/lib/libchromatix_s5k5e8_cpp_hfr_90.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k5e8_cpp_liveshot.so:system/vendor/lib/libchromatix_s5k5e8_cpp_liveshot.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k5e8_cpp_preview.so:system/vendor/lib/libchromatix_s5k5e8_cpp_preview.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k5e8_cpp_snapshot.so:system/vendor/lib/libchromatix_s5k5e8_cpp_snapshot.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k5e8_cpp_us_chromatix.so:system/vendor/lib/libchromatix_s5k5e8_cpp_us_chromatix.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k5e8_cpp_video.so:system/vendor/lib/libchromatix_s5k5e8_cpp_video.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k5e8_default_video.so:system/vendor/lib/libchromatix_s5k5e8_default_video.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k5e8_hfr_120.so:system/vendor/lib/libchromatix_s5k5e8_hfr_120.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k5e8_hfr_60.so:system/vendor/lib/libchromatix_s5k5e8_hfr_60.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k5e8_hfr_90.so:system/vendor/lib/libchromatix_s5k5e8_hfr_90.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k5e8_liveshot.so:system/vendor/lib/libchromatix_s5k5e8_liveshot.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k5e8_ofilm_a3_default_preview.so:system/vendor/lib/libchromatix_s5k5e8_ofilm_a3_default_preview.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k5e8_ofilm_a3_default_video.so:system/vendor/lib/libchromatix_s5k5e8_ofilm_a3_default_video.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k5e8_ofilm_a3_hfr_120.so:system/vendor/lib/libchromatix_s5k5e8_ofilm_a3_hfr_120.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k5e8_ofilm_a3_hfr_60.so:system/vendor/lib/libchromatix_s5k5e8_ofilm_a3_hfr_60.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k5e8_ofilm_a3_hfr_90.so:system/vendor/lib/libchromatix_s5k5e8_ofilm_a3_hfr_90.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k5e8_ofilm_common.so:system/vendor/lib/libchromatix_s5k5e8_ofilm_common.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k5e8_ofilm_cpp_ds_chromatix.so:system/vendor/lib/libchromatix_s5k5e8_ofilm_cpp_ds_chromatix.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k5e8_ofilm_cpp_hfr_120.so:system/vendor/lib/libchromatix_s5k5e8_ofilm_cpp_hfr_120.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k5e8_ofilm_cpp_hfr_60.so:system/vendor/lib/libchromatix_s5k5e8_ofilm_cpp_hfr_60.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k5e8_ofilm_cpp_hfr_90.so:system/vendor/lib/libchromatix_s5k5e8_ofilm_cpp_hfr_90.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k5e8_ofilm_cpp_liveshot.so:system/vendor/lib/libchromatix_s5k5e8_ofilm_cpp_liveshot.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k5e8_ofilm_cpp_preview.so:system/vendor/lib/libchromatix_s5k5e8_ofilm_cpp_preview.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k5e8_ofilm_cpp_snapshot.so:system/vendor/lib/libchromatix_s5k5e8_ofilm_cpp_snapshot.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k5e8_ofilm_cpp_us_chromatix.so:system/vendor/lib/libchromatix_s5k5e8_ofilm_cpp_us_chromatix.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k5e8_ofilm_cpp_video.so:system/vendor/lib/libchromatix_s5k5e8_ofilm_cpp_video.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k5e8_ofilm_default_video.so:system/vendor/lib/libchromatix_s5k5e8_ofilm_default_video.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k5e8_ofilm_hfr_120.so:system/vendor/lib/libchromatix_s5k5e8_ofilm_hfr_120.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k5e8_ofilm_hfr_60.so:system/vendor/lib/libchromatix_s5k5e8_ofilm_hfr_60.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k5e8_ofilm_hfr_90.so:system/vendor/lib/libchromatix_s5k5e8_ofilm_hfr_90.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k5e8_ofilm_liveshot.so:system/vendor/lib/libchromatix_s5k5e8_ofilm_liveshot.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k5e8_ofilm_postproc.so:system/vendor/lib/libchromatix_s5k5e8_ofilm_postproc.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k5e8_ofilm_preview.so:system/vendor/lib/libchromatix_s5k5e8_ofilm_preview.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k5e8_ofilm_snapshot.so:system/vendor/lib/libchromatix_s5k5e8_ofilm_snapshot.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k5e8_ofilm_zsl_preview.so:system/vendor/lib/libchromatix_s5k5e8_ofilm_zsl_preview.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k5e8_ofilm_zsl_video.so:system/vendor/lib/libchromatix_s5k5e8_ofilm_zsl_video.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k5e8_postproc.so:system/vendor/lib/libchromatix_s5k5e8_postproc.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k5e8_preview.so:system/vendor/lib/libchromatix_s5k5e8_preview.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k5e8_snapshot.so:system/vendor/lib/libchromatix_s5k5e8_snapshot.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k5e8_zsl_preview.so:system/vendor/lib/libchromatix_s5k5e8_zsl_preview.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_s5k5e8_zsl_video.so:system/vendor/lib/libchromatix_s5k5e8_zsl_video.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_common.so:system/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_common.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_cpp_hfr_120.so:system/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_cpp_hfr_120.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_cpp_hfr_60.so:system/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_cpp_hfr_60.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_cpp_hfr_90.so:system/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_cpp_hfr_90.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_cpp_liveshot.so:system/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_cpp_liveshot.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_cpp_preview.so:system/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_cpp_preview.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_cpp_snapshot.so:system/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_cpp_snapshot.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_cpp_video.so:system/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_cpp_video.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_default_preview_dw9763.so:system/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_default_preview_dw9763.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_default_video.so:system/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_default_video.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_default_video_dw9763.so:system/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_default_video_dw9763.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_hfr_120.so:system/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_hfr_120.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_hfr_120_dw9763.so:system/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_hfr_120_dw9763.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_hfr_60.so:system/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_hfr_60.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_hfr_60_dw9763.so:system/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_hfr_60_dw9763.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_hfr_90.so:system/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_hfr_90.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_hfr_90_dw9763.so:system/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_hfr_90_dw9763.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_liveshot.so:system/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_liveshot.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_postproc.so:system/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_postproc.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_preview.so:system/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_preview.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_snapshot.so:system/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_snapshot.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_zsl_preview_dw9763.so:system/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_zsl_preview_dw9763.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_zsl_video_dw9763.so:system/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_zsl_video_dw9763.so \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libcne.so:system/vendor/lib/libcne.so \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libcneconn.so:system/vendor/lib/libcneconn.so \
@@ -988,10 +805,6 @@ PRODUCT_COPY_FILES += \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libfastrpc_aue_stub.so:system/vendor/lib/libfastrpc_aue_stub.so \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libfastrpc_utf_stub.so:system/vendor/lib/libfastrpc_utf_stub.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libffmpeg_extractor.so:system/vendor/lib/libffmpeg_extractor.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libffmpeg_omx.so:system/vendor/lib/libffmpeg_omx.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libffmpeg_utils.so:system/vendor/lib/libffmpeg_utils.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libflash_gpio.so:system/vendor/lib/libflash_gpio.so \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libflash_pmic.so:system/vendor/lib/libflash_pmic.so \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
@@ -1111,9 +924,6 @@ PRODUCT_COPY_FILES += \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libmmcamera_ov4688_eeprom.so:system/vendor/lib/libmmcamera_ov4688_eeprom.so \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libmmcamera_ov5645.so:system/vendor/lib/libmmcamera_ov5645.so \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libmmcamera_ov5670.so:system/vendor/lib/libmmcamera_ov5670.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libmmcamera_ov5670_sunny.so:system/vendor/lib/libmmcamera_ov5670_sunny.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libmmcamera_ov5675.so:system/vendor/lib/libmmcamera_ov5675.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libmmcamera_ov5675_eeprom.so:system/vendor/lib/libmmcamera_ov5675_eeprom.so \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libmmcamera_ov5695.so:system/vendor/lib/libmmcamera_ov5695.so \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libmmcamera_ov8858.so:system/vendor/lib/libmmcamera_ov8858.so \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libmmcamera_ov8865.so:system/vendor/lib/libmmcamera_ov8865.so \
@@ -1122,18 +932,10 @@ PRODUCT_COPY_FILES += \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libmmcamera_ppbase_module.so:system/vendor/lib/libmmcamera_ppbase_module.so \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libmmcamera_qtech_f3l8yam_eeprom.so:system/vendor/lib/libmmcamera_qtech_f3l8yam_eeprom.so \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libmmcamera_qtech_f5670bq_eeprom.so:system/vendor/lib/libmmcamera_qtech_f5670bq_eeprom.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libmmcamera_s5k3l2.so:system/vendor/lib/libmmcamera_s5k3l2.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libmmcamera_s5k3l2_eeprom.so:system/vendor/lib/libmmcamera_s5k3l2_eeprom.so \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libmmcamera_s5k3l8.so:system/vendor/lib/libmmcamera_s5k3l8.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libmmcamera_s5k3l8_eeprom.so:system/vendor/lib/libmmcamera_s5k3l8_eeprom.so \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libmmcamera_s5k3l8_mono.so:system/vendor/lib/libmmcamera_s5k3l8_mono.so \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libmmcamera_s5k3m2xm.so:system/vendor/lib/libmmcamera_s5k3m2xm.so \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libmmcamera_s5k3m2xx.so:system/vendor/lib/libmmcamera_s5k3m2xx.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libmmcamera_s5k4h8.so:system/vendor/lib/libmmcamera_s5k4h8.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libmmcamera_s5k5e8.so:system/vendor/lib/libmmcamera_s5k5e8.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libmmcamera_s5k5e8_eeprom.so:system/vendor/lib/libmmcamera_s5k5e8_eeprom.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libmmcamera_s5k5e8_ofilm.so:system/vendor/lib/libmmcamera_s5k5e8_ofilm.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libmmcamera_s5k5e8_ofilm_eeprom.so:system/vendor/lib/libmmcamera_s5k5e8_ofilm_eeprom.so \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libmmcamera_sony_imx214_eeprom.so:system/vendor/lib/libmmcamera_sony_imx214_eeprom.so \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libmmcamera_sony_imx298_eeprom.so:system/vendor/lib/libmmcamera_sony_imx298_eeprom.so \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libmmcamera_sonyimx135_eeprom.so:system/vendor/lib/libmmcamera_sonyimx135_eeprom.so \
@@ -1158,10 +960,6 @@ PRODUCT_COPY_FILES += \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libmmsw_math.so:system/vendor/lib/libmmsw_math.so \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libmmsw_opencl.so:system/vendor/lib/libmmsw_opencl.so \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libmmsw_platform.so:system/vendor/lib/libmmsw_platform.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libmorpho_easy_hdr.so:system/vendor/lib/libmorpho_easy_hdr.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libmorpho_hdr_checker.so:system/vendor/lib/libmorpho_hdr_checker.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libmorpho_image_stab4.so:system/vendor/lib/libmorpho_image_stab4.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libmorpho_panorama_gp.so:system/vendor/lib/libmorpho_panorama_gp.so \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libois_lc898122.so:system/vendor/lib/libois_lc898122.so \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/liboptizoom.so:system/vendor/lib/liboptizoom.so \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
@@ -1204,8 +1002,6 @@ PRODUCT_COPY_FILES += \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libsmwrapper.so:system/vendor/lib/libsmwrapper.so \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libsrsprocessing.so:system/vendor/lib/libsrsprocessing.so \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libsubsystem_control.so:system/vendor/lib/libsubsystem_control.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libswresample.so:system/vendor/lib/libswresample.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libswscale.so:system/vendor/lib/libswscale.so \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libswvdec.so:system/vendor/lib/libswvdec.so \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
@@ -1324,9 +1120,6 @@ PRODUCT_COPY_FILES += \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib64/libaudioalsa.so:system/vendor/lib64/libaudioalsa.so \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib64/libaudiodevarb.so:system/vendor/lib64/libaudiodevarb.so \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib64/libaudioparsers.so:system/vendor/lib64/libaudioparsers.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib64/libavcodec.so:system/vendor/lib64/libavcodec.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib64/libavformat.so:system/vendor/lib64/libavformat.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib64/libavutil.so:system/vendor/lib64/libavutil.so \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib64/libbccQTI.so:system/vendor/lib64/libbccQTI.so \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib64/libbtnv.so:system/vendor/lib64/libbtnv.so \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib64/libc2d30-a3xx.so:system/vendor/lib64/libc2d30-a3xx.so \
@@ -1356,9 +1149,6 @@ PRODUCT_COPY_FILES += \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib64/libfastcvopt.so:system/vendor/lib64/libfastcvopt.so \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib64/libfastrpc_aue_stub.so:system/vendor/lib64/libfastrpc_aue_stub.so \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib64/libfastrpc_utf_stub.so:system/vendor/lib64/libfastrpc_utf_stub.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib64/libffmpeg_extractor.so:system/vendor/lib64/libffmpeg_extractor.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib64/libffmpeg_omx.so:system/vendor/lib64/libffmpeg_omx.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib64/libffmpeg_utils.so:system/vendor/lib64/libffmpeg_utils.so \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib64/libflp.so:system/vendor/lib64/libflp.so \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib64/libgdtap.so:system/vendor/lib64/libgdtap.so \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib64/libgeofence.so:system/vendor/lib64/libgeofence.so \
@@ -1447,8 +1237,6 @@ PRODUCT_COPY_FILES += \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib64/libsmemlog.so:system/vendor/lib64/libsmemlog.so \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib64/libssd.so:system/vendor/lib64/libssd.so \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib64/libsubsystem_control.so:system/vendor/lib64/libsubsystem_control.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib64/libswresample.so:system/vendor/lib64/libswresample.so \
-    vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib64/libswscale.so:system/vendor/lib64/libswscale.so \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib64/libswvdec.so:system/vendor/lib64/libswvdec.so \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib64/libsystem_health_mon.so:system/vendor/lib64/libsystem_health_mon.so \
     vendor/swipe/SWIPE_ELITE/proprietary/vendor/lib64/libthermalclient.so:system/vendor/lib64/libthermalclient.so \
